@@ -1,0 +1,40 @@
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.port_img {   
+    border: 2 px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 100px;
+}
+
+.info_card {
+    margin-left: 20px;
+}
+
+p {
+    color: blue;
+    font-style: italic;
+    font-family: arial;
+    font-weight: bold;
+    border-style: solid;
+    background-color:lightgrey;
+}
+
+.about_me {
+    color: light-green;
+    font-weight: bold;
+    font-family: san serif;
+    font-style: italic;
+    border-style: dashed;
+}
+
+@media (max-width: 1250px) {
+    .main_container {
+        flex-direction: column;
+    }
+}
